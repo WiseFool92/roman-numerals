@@ -1,5 +1,13 @@
 // Back End
+var romanNumeralOutput = [""];
+romanNumeralOutput.join("");
 
+function inputRomanize(number) {
+  for (var i = number; i !=0, i += 0) {
+    if (i = )
+
+  }
+}
 
 
 
@@ -12,8 +20,8 @@ $(document).ready(function() {
     event.preventDefault();
 
     //Roman Numeral ui
-    var year = $("#input").val();
-    $(".output").text(evaluateYear(year));
+    
+    $("#output").text();
 
   });
 });
