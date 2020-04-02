@@ -14,31 +14,19 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/scripts.js"></script>
   
-  <title>Web Template</title>
+  <title>Roman numeral converter</title>
 </head>
 
 <body>
   <div class="container">
     <h1 class="text-center">Roman Numerals!</h1>
-        <form>
-          <div class="form-group">
-            <label for="year">Enter a number</label>
-            <input type="text" class="form-control" id="year" placeholder="2020">
-            <small id="year-text" class="form-text text-muted">Give us a number and we will convert it to a roman numeral.</small>
-          </div>
-          <button id="submitBtn" type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
-        </form>
-        <div id="output">
-          <p></p>
-
-        </div>
-    
     <form action="romanNumeralAction" id="romanNumeral">
         <div class="form-group">
             <label for="enterNumber">Enter a number to find out what the roman numeral equivalent is: </label>
-            <input id="number" type="number" maxlength="4000">
+            <input id="number" type="number" maxlength="4000" class="form-group" placeholder="2020">
+            <small id="number-text" class="form-number text-muted">Give us a number and we will convert it to a roman numeral.</small>
         </div>
-        <button type="submit" class="btn" >Submit</button>
+        <button id="submitBtn" type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
     </form>
     <p id="romanNumeralResult">Result: <span class="conversion"></span> </p>
   </div>

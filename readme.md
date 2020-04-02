@@ -54,35 +54,10 @@ git clone {link to repository}
 | The program should identify counts of 10 as X | '10' | 'X' |
 | The program should identify counts of 5 as V | '5' | 'V' |
 | The program should identify counts of 1 as I | '1' | 'I'  |
-| The program should identify counts of 9 as IX | '9' | 'IX'  |
 | The program should identify counts of 4 as IV | '4' | 'IV'  |
+| The program should identify counts of 9 as IX | '9' | 'IX'  |
 
-<!--  Examples:
-      | decimal_number | roman_numeral |
-      | 1              | I             |
-      | 2              | II            |
-      | 3              | III           |
-      | 4              | IV            |
-      | 5              | V             |
-      | 6              | VI            |
-      | 9              | IX            |
-      | 10             | X             |
-      | 11             | XI            |
-      | 15             | XV            |
-      | 16             | XVI           |
-      | 19             | XIX           |
-      #| 21             | XXI           |
-      #| 40             | XL            |
-      #| 50             | L             |
-      #| 90             | XC            |
-      #| 100            | C             |
-      #| 206            | CCVI          |
-      #| 400            | CD            |
-      #| 500            | D             |
-      #| 900            | CM            |
-      #| 1000           | M             |
-      #| 1944           | MCMXLIV       |
-      #| 2006           | MMVI          | -->
+
 ---
 
 ## Support
