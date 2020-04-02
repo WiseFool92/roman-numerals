@@ -2,13 +2,15 @@
 var romanNumeralOutput = [""];
 romanNumeralOutput.join("");
 
-function inputRomanize(number) {
-  for (var i = number; i !=0, i += 0) {
-    if (i = )
-
-  }
-}
-
+function inputRomanize(number); {
+  for (var i = number; i !=0, i += 0); {
+    if (i >= 1000){
+      romanNumeralOutput.push("M");
+      
+    };
+  };
+};
+log.console(inputRomanize(1000))
 
 
 //Front End

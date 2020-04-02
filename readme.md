@@ -1,18 +1,14 @@
-# _Leap Year_
+# _Roman Numerals_
 
-#### _This site comes with the all basic parts to get you started making a single page website fast. | April 1st. 2020_
+#### _This site comes with the all basic parts to get you started converting numbers to roman numerals. | April 2nd. 2020_
 
-#### By _**Joshua Hellman & Nathan Watkins-Hoagland**_
+#### By _**Nathan Watkins-Hoagland & Dom Montelongo**_
 
 ## Description
 
-_This leapyear site has one index.html file that is already linked to the included bootstrap.css(4.4), styles.css, jQuery.js(3.4.1), and scripts.js._
+_This Roman numeral site is already linked to an index.html, bootstrap.css(4.4), styles.css, jQuery.js(3.4.1), and scripts.js._
 
-There is a pre-built two input form with a submit button. There is also a simple jQuery function that will console.log when the submit button is clicked.
-
-The .gitignore file is a template for mac osx but a link is provided to get a template for any operating system.
-
-[create a .gitignore template for your os here](https://www.gitignore.io/)
+There is a pre-built input form with a submit button. There is also a simple jQuery function that will console.log when the submit button is clicked.
 
 ## Setup/Installation Requirements
 
@@ -48,27 +44,50 @@ git clone {link to repository}
 ## Specs
 
 ### Behavior Driven Development Spec List
-#### Leap year
+#### Roman Numerals
 |                          Behavior                          | Input  | Output  |
 | :--------------------------------------------------------: | :----: | :-----: |
-| The program should return 'true' for years divisible by 4  | '2004' | 'true'  |
-| The program should return false for years divisible by 100 | '1900' | 'false' |  
-| The program should return 'true' for years divisible by 400 | '2000' | 'true' |
-| The program should return 'false' when a year is not a leap year | '1993' | 'false' |
----
-#### Pig Latin 
-|                          Behavior                          | Input  | Output  |
-| :--------------------------------------------------------: | :----: | :-----: |
-| The program does nothing to non-alphabetical characters | '4' | '4'  |
-| The program adds "yay" to single-letter words beginning with a vowel. | 'I' | 'I-yay' |  
-| The program adds "yay" to the end of words beginning with a vowel | 'Apple' | 'Apple-yay' |
-| The program will take words that start with consecutive consonants and move those consonants to the end and add "ay" to the word | "create"| 'eatecr-ay' |
-| The program will take words containing "qu" and treat it as one letter, it will remove the "u" as well as the "q" and place to the back of the word| 'squeal' | 'ealsqu-ay' |
+| The program should identify counts of 1000 as M | '1000' | 'M'  |
+| The program should identify counts of 500 as D | '500' | 'D' |  
+| The program should identify counts of 100 as C | '100' | 'C' |
+| The program should identify counts of 50 as L | '50' | 'L' |
+| The program should identify counts of 10 as X | '10' | 'X' |
+| The program should identify counts of 5 as V | '5' | 'V' |
+| The program should identify counts of 1 as I | '1' | 'I'  |
+| The program should identify counts of 9 as IX | '9' | 'IX'  |
+| The program should identify counts of 4 as IV | '4' | 'IV'  |
 
+<!--  Examples:
+      | decimal_number | roman_numeral |
+      | 1              | I             |
+      | 2              | II            |
+      | 3              | III           |
+      | 4              | IV            |
+      | 5              | V             |
+      | 6              | VI            |
+      | 9              | IX            |
+      | 10             | X             |
+      | 11             | XI            |
+      | 15             | XV            |
+      | 16             | XVI           |
+      | 19             | XIX           |
+      #| 21             | XXI           |
+      #| 40             | XL            |
+      #| 50             | L             |
+      #| 90             | XC            |
+      #| 100            | C             |
+      #| 206            | CCVI          |
+      #| 400            | CD            |
+      #| 500            | D             |
+      #| 900            | CM            |
+      #| 1000           | M             |
+      #| 1944           | MCMXLIV       |
+      #| 2006           | MMVI          | -->
+---
 
 ## Support
 
-_The software is provided as is. It might work as expected - or not. Just don't blame me._
+_Email: watkins92@gmail.com_ , _montelongodominic@gmail.com_
 
 ## Built With
 
@@ -110,4 +129,4 @@ _The software is provided as is. It might work as expected - or not. Just don't 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-Copyright (c) 2020 **_Joshua Hellman & Nathan Watkins-Hoagland_**
+Copyright (c) 2020 **_Nathan Watkins-Hoagland & Dom Montelongo_**
